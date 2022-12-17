@@ -1,5 +1,6 @@
 :root {
   --text-color: #665a48;
+  --secondary-color: #f9ebc8;
 }
 .navbar {
   padding-left: 130px;
@@ -15,6 +16,7 @@
 }
 h1,
 h2,
+h3,
 p {
   color: var(--text-color);
   line-height: 2;
@@ -73,4 +75,18 @@ a {
 }
 a:hover {
   color: #f9ebc8;
+}
+
+nav li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 17px;
+}
+nav ul {
+  line-height: 1.5;
+}
+nav li.active {
+  color: var(--secondary-color);
 }
