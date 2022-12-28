@@ -87,12 +87,16 @@ footer a {
   border-radius: 50%;
   background-color: var(--secondary-color);
 }
-.social-links a:hover{
+.social-links a:hover {
   color: var(--secondary-color);
   background-color: var(--text-color);
 }
-.end a{
+.end a {
   font-size: 18px;
+}
+.content{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 @media (max-width: 1000px) {
   h2,
