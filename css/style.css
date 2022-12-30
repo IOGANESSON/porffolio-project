@@ -94,9 +94,19 @@ footer a {
 .end a {
   font-size: 18px;
 }
-.content{
+.content {
   padding-left: 50px;
   padding-right: 50px;
+}
+.btn-project{
+  line-height: 2;
+}
+.form{
+  margin-right: 30px;
+  margin-top: 40px;
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+  padding: 20px;
 }
 @media (max-width: 1000px) {
   h2,
