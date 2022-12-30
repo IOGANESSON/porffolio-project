@@ -98,15 +98,25 @@ footer a {
   padding-left: 50px;
   padding-right: 50px;
 }
-.btn-project{
+.btn-project {
   line-height: 2;
 }
-.form{
+.form {
   margin-right: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
   border: 1px solid var(--text-color);
   border-radius: 20px;
   padding: 20px;
+}
+.contact-me h3 {
+  font-size: 24px;
+}
+.contact-me a {
+  font-size: 14px;
+  text-decoration: underline;
+}
+.contact-me a:hover {
+  color: var(--text-color);
 }
 @media (max-width: 1000px) {
   h2,
@@ -135,6 +145,9 @@ footer a {
   }
   .contact-box h2 {
     font-size: 30px;
+  }
+  .contact-me {
+    text-align: center;
   }
 }
 a {
